@@ -114,7 +114,12 @@ bool SftpPlugin::startBrowsing()
 void SftpPlugin::receivePacket(const NetworkPacket &np)
 {
     if (np.has(QStringLiteral("errorMessage"))) {
-        onFailed(np.get<QString>(QStringLiteral("errorMessage")));
+        const QString errorMessage = np.get<QString>(QStringLiteral("errorMessage"));
+        if (m_mounter) {
+            Q_EMIT m_mounter->failed(errorMessage);
+        } else {
+            onFailed(errorMessage);
+        }
         return;
     }
 
