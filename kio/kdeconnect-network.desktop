@@ -1,5 +1,15 @@
 [Desktop Entry]
 Icon=kdeconnect
 Name=KDE Connect Devices
+Name[ca]=Dispositius del KDE Connect
+Name[he]=מכשירי KDE Connect
+Name[ia]=Dispositivos de KDE Connect
+Name[is]=KDE Connect tæki
+Name[ka]=KDE Connect-ის მოწყობილობები
+Name[nl]=Apparaten van KDE Connect
+Name[pt_BR]=Dispositivos KDE Connect
+Name[sl]=Naprave s KDE Connect
+Name[tr]=KDE Bağlan Aygıtları
+Name[uk]=Пристрої KDE Connect
 Type=Link
 URL=kdeconnect:/
