@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-13 00:43+0000\n"
+"POT-Creation-Date: 2026-03-24 00:43+0000\n"
 "PO-Revision-Date: 2026-03-10 10:27+0300\n"
 "Last-Translator: Olesya Gerasimenko <goa@altlinux.org>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -413,12 +413,12 @@ msgstr "KDE Connect"
 msgid "Cannot handle SFTP protocol. Apologies for the inconvenience"
 msgstr "Обработка протокола SFTP невозможна. Извините за неудобство."
 
-#: sftp/sftpplugin.cpp:147
+#: sftp/sftpplugin.cpp:152
 #, kde-format
 msgid "All files"
 msgstr "Все файлы"
 
-#: sftp/sftpplugin.cpp:148
+#: sftp/sftpplugin.cpp:153
 #, kde-format
 msgid "Camera pictures"
 msgstr "Фотографии с камеры"

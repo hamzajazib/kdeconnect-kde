@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-13 00:43+0000\n"
+"POT-Creation-Date: 2026-03-24 00:43+0000\n"
 "PO-Revision-Date: 2026-03-12 20:51+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-l10n-ta@kde.org>\n"
@@ -403,12 +403,12 @@ msgstr "கே.டீ.யீ. கனெக்ட்"
 msgid "Cannot handle SFTP protocol. Apologies for the inconvenience"
 msgstr "SFTP நெறிமுறை ஆதரிக்கப்படாதது."
 
-#: sftp/sftpplugin.cpp:147
+#: sftp/sftpplugin.cpp:152
 #, kde-format
 msgid "All files"
 msgstr "அனைத்து கோப்புகள்"
 
-#: sftp/sftpplugin.cpp:148
+#: sftp/sftpplugin.cpp:153
 #, kde-format
 msgid "Camera pictures"
 msgstr "படக்கருவியிலெடுத்த படங்கள்"
