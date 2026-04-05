@@ -20,9 +20,14 @@ Kirigami.ScrollablePage {
     readonly property string pluginId: "kdeconnect_shareinputdevices"
 
     actions: Kirigami.Action {
+        id: applyButton
         icon.name: "dialog-ok"
         text: i18nd("kdeconnect-plugins", "Apply")
-        onTriggered: config.set("edge", edgeComboBox.valueAt(edgeComboBox.currentIndex))
+        enabled: false // Nothing to be applied when we enter the page.
+        onTriggered: {
+            config.set("edge", edgeComboBox.valueAt(edgeComboBox.currentIndex))
+            enabled = false
+        }
     }
 
     Kirigami.FormLayout {
@@ -40,6 +45,7 @@ Kirigami.ScrollablePage {
                 id: edgeComboBox
                 textRole: "text"
                 valueRole: "value"
+                onActivated: applyButton.enabled = edgeComboBox.valueAt(edgeComboBox.currentIndex) != config.getInt("edge", Qt.LeftEdge)
                 model: [
                     {
                         text: i18nc("@item:inlistbox top edge of screen", "Top"),
