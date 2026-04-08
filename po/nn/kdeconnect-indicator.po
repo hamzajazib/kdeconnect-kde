@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"POT-Creation-Date: 2026-04-08 00:45+0000\n"
 "PO-Revision-Date: 2025-06-01 14:59+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -143,17 +143,17 @@ msgid_plural "%1 devices connected"
 msgstr[0] "%1 eining kopla til"
 msgstr[1] "%1 einingar kopla til"
 
-#: systray_actions/battery_action.cpp:28
+#: systray_actions/battery_action.cpp:35
 #, kde-format
 msgid "No Battery"
 msgstr "Manglar batteri"
 
-#: systray_actions/battery_action.cpp:30
+#: systray_actions/battery_action.cpp:37
 #, kde-format
 msgid "Battery: %1% (Charging)"
 msgstr "Batteri: %1 % (ladar)"
 
-#: systray_actions/battery_action.cpp:32
+#: systray_actions/battery_action.cpp:39
 #, kde-format
 msgid "Battery: %1%"
 msgstr "Batteri: %1 %"

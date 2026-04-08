@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.kdeconnect\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-12 00:43+0000\n"
+"POT-Creation-Date: 2026-04-08 00:45+0000\n"
 "PO-Revision-Date: 2026-03-16 16:44+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -20,17 +20,17 @@ msgstr ""
 "X-Generator: Lokalize 26.03.70\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: package/contents/ui/Battery.qml:33
+#: package/contents/ui/Battery.qml:35
 #, kde-format
 msgid "%1% charging"
 msgstr "正在充電中... %1%"
 
-#: package/contents/ui/Battery.qml:35
+#: package/contents/ui/Battery.qml:37
 #, kde-format
 msgid "%1%"
 msgstr "%1%"
 
-#: package/contents/ui/Battery.qml:38
+#: package/contents/ui/Battery.qml:40
 #, kde-format
 msgid "No info"
 msgstr "沒有資訊"
@@ -40,7 +40,7 @@ msgstr "沒有資訊"
 msgid "Unknown"
 msgstr "未知"
 
-#: package/contents/ui/Connectivity.qml:54
+#: package/contents/ui/Connectivity.qml:55
 #, kde-format
 msgid "No signal"
 msgstr "無訊號"

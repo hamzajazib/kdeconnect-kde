@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-12 00:43+0000\n"
+"POT-Creation-Date: 2026-04-08 00:45+0000\n"
 "PO-Revision-Date: 2024-12-20 21:51+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -19,17 +19,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
 
-#: package/contents/ui/Battery.qml:33
+#: package/contents/ui/Battery.qml:35
 #, kde-format
 msgid "%1% charging"
 msgstr "%1% चार्जिंग"
 
-#: package/contents/ui/Battery.qml:35
+#: package/contents/ui/Battery.qml:37
 #, kde-format
 msgid "%1%"
 msgstr "%1%"
 
-#: package/contents/ui/Battery.qml:38
+#: package/contents/ui/Battery.qml:40
 #, kde-format
 msgid "No info"
 msgstr "न इन्फो"
@@ -39,7 +39,7 @@ msgstr "न इन्फो"
 msgid "Unknown"
 msgstr "अज्ञात"
 
-#: package/contents/ui/Connectivity.qml:54
+#: package/contents/ui/Connectivity.qml:55
 #, kde-format
 msgid "No signal"
 msgstr "न संकेतः"
