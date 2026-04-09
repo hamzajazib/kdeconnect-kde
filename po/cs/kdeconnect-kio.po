@@ -56,7 +56,7 @@ msgstr "Nelze kontaktovat službu na pozadí."
 #: kiokdeconnect.cpp:311
 #, kde-format
 msgid "KDE Connect"
-msgstr ""
+msgstr "KDE Connect"
 
 #: kiokdeconnect.cpp:321
 #, kde-format

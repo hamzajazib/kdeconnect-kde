@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kdeconnect-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-08 00:45+0000\n"
-"PO-Revision-Date: 2026-02-27 16:38+0200\n"
+"PO-Revision-Date: 2026-04-08 08:35+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -79,32 +79,32 @@ msgstr "Адреса для оприлюднення"
 #: qml/BatteryInfo.qml:26
 #, kde-format
 msgid "Battery: No info"
-msgstr ""
+msgstr "Акумулятор: немає даних"
 
 #: qml/BatteryInfo.qml:28
 #, kde-format
 msgid "Battery: %1% (Charging)"
-msgstr ""
+msgstr "Акумулятор: %1% (заряджається)"
 
 #: qml/BatteryInfo.qml:30
 #, kde-format
 msgid "Battery: %1%"
-msgstr ""
+msgstr "Акумулятор: %1%"
 
 #: qml/ConnectivityInfo.qml:20
 #, kde-format
 msgid "Unknown"
-msgstr ""
+msgstr "Невідомо"
 
 #: qml/ConnectivityInfo.qml:26
 #, kde-format
 msgid "Mobile Network: No signal"
-msgstr ""
+msgstr "Мобільна мережа: немає сигналу"
 
 #: qml/ConnectivityInfo.qml:28
 #, kde-format
 msgid "Mobile Network: %1"
-msgstr ""
+msgstr "Мобільна мережа: %1"
 
 #: qml/DevicePage.qml:46
 #, kde-format

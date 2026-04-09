@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kdeconnect-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-08 00:45+0000\n"
-"PO-Revision-Date: 2026-02-27 05:12+0100\n"
+"PO-Revision-Date: 2026-04-08 07:13+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #: main.cpp:38 main.cpp:40
 #, kde-format
@@ -76,32 +76,32 @@ msgstr "გასაზიარებელი URL"
 #: qml/BatteryInfo.qml:26
 #, kde-format
 msgid "Battery: No info"
-msgstr ""
+msgstr "ელემენტი: ინფორმაციის გარეშე"
 
 #: qml/BatteryInfo.qml:28
 #, kde-format
 msgid "Battery: %1% (Charging)"
-msgstr ""
+msgstr "ელემენტი: %1% (იტენება)"
 
 #: qml/BatteryInfo.qml:30
 #, kde-format
 msgid "Battery: %1%"
-msgstr ""
+msgstr "ელემენტი: %1%"
 
 #: qml/ConnectivityInfo.qml:20
 #, kde-format
 msgid "Unknown"
-msgstr ""
+msgstr "უცნობი"
 
 #: qml/ConnectivityInfo.qml:26
 #, kde-format
 msgid "Mobile Network: No signal"
-msgstr ""
+msgstr "მობილური ქსელი: სიგნალი არ არის"
 
 #: qml/ConnectivityInfo.qml:28
 #, kde-format
 msgid "Mobile Network: %1"
-msgstr ""
+msgstr "მობილური ქსელი: %1"
 
 #: qml/DevicePage.qml:46
 #, kde-format

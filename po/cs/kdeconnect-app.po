@@ -80,17 +80,17 @@ msgstr ""
 #: qml/BatteryInfo.qml:28
 #, kde-format
 msgid "Battery: %1% (Charging)"
-msgstr ""
+msgstr "Baterie: %1% (Nabíjí se)"
 
 #: qml/BatteryInfo.qml:30
 #, kde-format
 msgid "Battery: %1%"
-msgstr ""
+msgstr "Baterie: %1%"
 
 #: qml/ConnectivityInfo.qml:20
 #, kde-format
 msgid "Unknown"
-msgstr ""
+msgstr "Neznámý"
 
 #: qml/ConnectivityInfo.qml:26
 #, kde-format

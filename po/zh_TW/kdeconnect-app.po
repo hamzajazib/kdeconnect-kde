@@ -6,13 +6,13 @@
 # Automatically generated, 2019.
 # pan93412 <pan93412@gmail.com>, 2019.
 # Chaoting Liu <brli@chakralinux.org>, 2021.
-# SPDX-FileCopyrightText: 2023, 2024, 2025, 2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
+# SPDX-FileCopyrightText: 2023-2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-08 00:45+0000\n"
-"PO-Revision-Date: 2026-03-02 05:33+0900\n"
+"PO-Revision-Date: 2026-04-08 23:22+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 25.11.70\n"
+"X-Generator: Lokalize 26.07.70\n"
 
 #: main.cpp:38 main.cpp:40
 #, kde-format
@@ -80,32 +80,32 @@ msgstr "要分享的網址"
 #: qml/BatteryInfo.qml:26
 #, kde-format
 msgid "Battery: No info"
-msgstr ""
+msgstr "電池：無資料"
 
 #: qml/BatteryInfo.qml:28
 #, kde-format
 msgid "Battery: %1% (Charging)"
-msgstr ""
+msgstr "電池：%1% (充電中)"
 
 #: qml/BatteryInfo.qml:30
 #, kde-format
 msgid "Battery: %1%"
-msgstr ""
+msgstr "電池：%1%"
 
 #: qml/ConnectivityInfo.qml:20
 #, kde-format
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 #: qml/ConnectivityInfo.qml:26
 #, kde-format
 msgid "Mobile Network: No signal"
-msgstr ""
+msgstr "行動網路：無訊號"
 
 #: qml/ConnectivityInfo.qml:28
 #, kde-format
 msgid "Mobile Network: %1"
-msgstr ""
+msgstr "行動網路：%1"
 
 #: qml/DevicePage.qml:46
 #, kde-format
