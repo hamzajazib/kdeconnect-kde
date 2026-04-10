@@ -75,7 +75,7 @@ msgstr "URL na zdieľanie"
 #: qml/BatteryInfo.qml:26
 #, kde-format
 msgid "Battery: No info"
-msgstr ""
+msgstr "Batéria: Žiadne informácie"
 
 #: qml/BatteryInfo.qml:28
 #, kde-format
@@ -95,12 +95,12 @@ msgstr "Neznáme"
 #: qml/ConnectivityInfo.qml:26
 #, kde-format
 msgid "Mobile Network: No signal"
-msgstr ""
+msgstr "Mobilná sieť: Žiadny signál"
 
 #: qml/ConnectivityInfo.qml:28
 #, kde-format
 msgid "Mobile Network: %1"
-msgstr ""
+msgstr "Mobilná sieť: %1"
 
 #: qml/DevicePage.qml:46
 #, kde-format
