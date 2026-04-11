@@ -55,7 +55,7 @@ msgstr "无法连接后台服务。"
 #: kiokdeconnect.cpp:311
 #, kde-format
 msgid "KDE Connect"
-msgstr ""
+msgstr "KDE Connect"
 
 #: kiokdeconnect.cpp:321
 #, kde-format
