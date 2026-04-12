@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kdeconnect-app\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-08 00:45+0000\n"
-"PO-Revision-Date: 2026-03-08 00:04+0100\n"
+"PO-Revision-Date: 2026-04-11 18:16+0100\n"
 "Last-Translator: Víctor Rodrigo Córdoba <vrcordoba@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -77,32 +77,32 @@ msgstr "URL para compartir"
 #: qml/BatteryInfo.qml:26
 #, kde-format
 msgid "Battery: No info"
-msgstr ""
+msgstr "Batería: Sin información"
 
 #: qml/BatteryInfo.qml:28
 #, kde-format
 msgid "Battery: %1% (Charging)"
-msgstr ""
+msgstr "Batería: %1% (Cargando)"
 
 #: qml/BatteryInfo.qml:30
 #, kde-format
 msgid "Battery: %1%"
-msgstr ""
+msgstr "Batería: %1%"
 
 #: qml/ConnectivityInfo.qml:20
 #, kde-format
 msgid "Unknown"
-msgstr ""
+msgstr "Deconocido"
 
 #: qml/ConnectivityInfo.qml:26
 #, kde-format
 msgid "Mobile Network: No signal"
-msgstr ""
+msgstr "Red móvil: Sin señal"
 
 #: qml/ConnectivityInfo.qml:28
 #, kde-format
 msgid "Mobile Network: %1"
-msgstr ""
+msgstr "Red móvil: %1"
 
 #: qml/DevicePage.qml:46
 #, kde-format
