@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:45+0000\n"
+"POT-Creation-Date: 2026-04-15 00:45+0000\n"
 "PO-Revision-Date: 2026-03-12 20:51+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-l10n-ta@kde.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 25.12.3\n"
 
-#: battery/batteryplugin.cpp:142
+#: battery/batteryplugin.cpp:150
 #, kde-format
 msgctxt "device name: low battery"
 msgid "%1: Low Battery"
 msgstr "%1: குறைவான மின்கலம்"
 
-#: battery/batteryplugin.cpp:143
+#: battery/batteryplugin.cpp:151
 #, kde-format
 msgid "Battery at %1%"
 msgstr "மின்கலத்தில் %1% உள்ளது"
@@ -403,12 +403,12 @@ msgstr "கே.டீ.யீ. கனெக்ட்"
 msgid "Cannot handle SFTP protocol. Apologies for the inconvenience"
 msgstr "SFTP நெறிமுறை ஆதரிக்கப்படாதது."
 
-#: sftp/sftpplugin.cpp:152
+#: sftp/sftpplugin.cpp:167
 #, kde-format
 msgid "All files"
 msgstr "அனைத்து கோப்புகள்"
 
-#: sftp/sftpplugin.cpp:153
+#: sftp/sftpplugin.cpp:168
 #, kde-format
 msgid "Camera pictures"
 msgstr "படக்கருவியிலெடுத்த படங்கள்"
