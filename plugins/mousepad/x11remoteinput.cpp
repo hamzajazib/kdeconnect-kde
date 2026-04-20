@@ -111,12 +111,12 @@ bool X11RemoteInput::handlePacket(const NetworkPacket &np)
     QString key = np.get<QString>(QStringLiteral("key"), QLatin1String(""));
     int specialKey = np.get<int>(QStringLiteral("specialKey"), 0);
 
-    if (isSingleClick || isDoubleClick || isMiddleClick || isRightClick || isSingleHold || isSingleRelease || isScroll || !key.isEmpty() || specialKey) {
-        Display *display = QX11Info::display();
-        if (!display) {
-            return false;
-        }
+    Display *display = QX11Info::display();
+    if (!display) {
+        return false;
+    }
 
+    if (isSingleClick || isDoubleClick || isMiddleClick || isRightClick || isSingleHold || isSingleRelease || isScroll || !key.isEmpty() || specialKey) {
         bool leftHanded = isLeftHanded(display);
         int mainMouseButton = leftHanded ? RightMouseButton : LeftMouseButton;
         int secondaryMouseButton = leftHanded ? LeftMouseButton : RightMouseButton;
@@ -201,16 +201,15 @@ bool X11RemoteInput::handlePacket(const NetworkPacket &np)
                 XTestFakeKeyEvent(display, XKeysymToKeycode(display, XK_Super_L), False, 0);
         }
 
-        XFlush(display);
-
     } else { // Is a mouse move event
         if (dx || dy) {
-            QPoint point = QCursor::pos();
-            QCursor::setPos(point.x() + (int)dx, point.y() + (int)dy);
+            XWarpPointer(display, None, None, 0, 0, 0, 0, (int)dx, (int)dy);
         } else if (np.has(QStringLiteral("x")) || np.has(QStringLiteral("y"))) {
-            QCursor::setPos(x, y);
+            Window &rootWindow = RootWindow(display, DefaultScreen(display));
+            XWarpPointer(display, None, rootWindow, 0, 0, 0, 0, (int)x, (int)y);
         }
     }
+    XFlush(display);
     return true;
 }
 
