@@ -76,17 +76,17 @@ msgstr "要分享的 URL"
 #: qml/BatteryInfo.qml:26
 #, kde-format
 msgid "Battery: No info"
-msgstr "电池：无信息"
+msgstr "电量：没有信息"
 
 #: qml/BatteryInfo.qml:28
 #, kde-format
 msgid "Battery: %1% (Charging)"
-msgstr "电池：%1% (正在充电)"
+msgstr "电量：%1% (正在充电)"
 
 #: qml/BatteryInfo.qml:30
 #, kde-format
 msgid "Battery: %1%"
-msgstr "电池：%1%"
+msgstr "电量：%1%"
 
 #: qml/ConnectivityInfo.qml:20
 #, kde-format
